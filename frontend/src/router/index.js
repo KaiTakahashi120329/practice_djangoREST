@@ -1,10 +1,17 @@
+<<<<<<< HEAD
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
+=======
+import Vue from 'vue';
+import VueRouter from 'vue-router';
+import Home from '../views/Home.vue';
+>>>>>>> test
 
 Vue.use(VueRouter);
 
 const routes = [
+<<<<<<< HEAD
   {
     path: "/",
     name: "Home",
@@ -28,3 +35,18 @@ const router = new VueRouter({
 });
 
 export default router;
+=======
+    {
+        path: "/",
+        name: "Home",
+        component: Hoem
+    },
+];
+
+const router = new VueRouter({
+    mode: "history",
+    routes
+});
+
+export default router;
+>>>>>>> test
