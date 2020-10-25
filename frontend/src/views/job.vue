@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div>
     <v-container>
       <h2 class="mb-5">{{ job.company_name }}</h2>
       <p>職種：{{ job.job_title }}</p>
